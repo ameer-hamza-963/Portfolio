@@ -408,7 +408,7 @@
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" onclick="openInNewTab('project1.html')">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/project1/frame.png"
@@ -430,7 +430,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web" onclick="openInNewTab('project2.html')">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/project2/frame.png"
@@ -452,7 +452,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" onclick="openInNewTab('project3.html')">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/project3/frame.png"
@@ -474,7 +474,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" onclick="openInNewTab('project4.html')">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/project4/frame.png"
@@ -496,7 +496,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" onclick="openInNewTab('project5.html')">
               <div class="portfolio-wrap">
                 <img
                   src="assets/img/portfolio/project5/frame.png"
@@ -735,6 +735,12 @@
     ></a>
 
     <!-- Vendor JS Files -->
+     <script>
+      function openInNewTab(url) {
+        window.open(url, '_blank').focus();
+      }
+
+     </script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
