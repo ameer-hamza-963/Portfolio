@@ -547,6 +547,21 @@ section {
   }
 }
 
+.portfolio .project-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 12px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .project-title:hover {
+  color: #007bff; /* or your theme's primary color */
+  transform: translateY(-2px);
+}
+
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -1184,18 +1199,4 @@ section {
 .description-font{
   font-size: 14px;
   text-align: justify;
-}
-
-.portfolio .project-title {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 12px;
-  color: #333;
-  transition: all 0.3s ease-in-out;
-}
-
-.portfolio .project-title:hover {
-  color: #007bff; /* or your theme's primary color */
-  transform: translateY(-2px);
 }
