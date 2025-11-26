@@ -547,7 +547,7 @@ section {
   }
 }
 
-.portfolio .project-title {
+.portfolio-item .project-title {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -556,7 +556,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio .project-title:hover {
+.portfolio-item .project-title:hover {
   color: #007bff; /* or your theme's primary color */
   transform: translateY(-2px);
 }
